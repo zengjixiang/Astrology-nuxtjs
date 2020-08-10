@@ -1,16 +1,19 @@
 {
-  "name": "nuxtjs",
+  "name": "UniversalAstrology",
   "version": "1.0.0",
-  "description": "My astonishing Nuxt.js project",
-  "author": "msweeneydev",
+  "description": "Astrology build on Nuxt.js",
+  "author": "zengjixiang",
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate",
-    "start": "nuxt start"
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "export": "nuxt export"
+
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.13.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
